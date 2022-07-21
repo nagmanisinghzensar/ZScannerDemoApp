@@ -1,0 +1,6 @@
+framework module ZQRScannerLib {
+  umbrella header "ZQRScannerLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

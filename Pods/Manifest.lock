@@ -1,0 +1,21 @@
+PODS:
+  - ZQRScannerLib (1.0.0)
+
+DEPENDENCIES:
+  - ZQRScannerLib (from `https://github.com/nagmanisinghzensar/ZenScanner`)
+
+EXTERNAL SOURCES:
+  ZQRScannerLib:
+    :git: https://github.com/nagmanisinghzensar/ZenScanner
+
+CHECKOUT OPTIONS:
+  ZQRScannerLib:
+    :commit: 722c50a1347a8ebabfeaca40ba6063c1aa9cfc45
+    :git: https://github.com/nagmanisinghzensar/ZenScanner
+
+SPEC CHECKSUMS:
+  ZQRScannerLib: 53c2916e3f57851a43d3c261cc83ef5d2c3f716b
+
+PODFILE CHECKSUM: 1ce66ed5775f73c76a1be3bbf742a1fc676999c7
+
+COCOAPODS: 1.11.3

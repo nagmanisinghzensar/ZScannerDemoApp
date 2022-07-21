@@ -1,0 +1,23 @@
+{
+  "name": "ZQRScannerLib",
+  "version": "1.0.0",
+  "summary": "This is used to scan barcode, QR code",
+  "description": "This library uses native AVFoundation framework to provide the ability to scan almost every barcode, QR code etc.",
+  "homepage": "http://EXAMPLE/ZQRScannerLib",
+  "license": "MIT",
+  "authors": {
+    "NagmaniSingh": "nagmani.singh@zensar.com"
+  },
+  "source": {
+    "git": "https://github.com/nagmanisinghzensar/ZenScanner",
+    "tag": "1.0.0"
+  },
+  "source_files": "ZQRScanner",
+  "exclude_files": "Classes/Exclude",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}
