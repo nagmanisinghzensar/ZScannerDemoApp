@@ -213,7 +213,7 @@ public class ZQRScannerView: UIView {
         session.addInput(videoInput)
         metadataOutput.setMetadataObjectsDelegate(self, queue: metadataQueue)
         session.addOutput(metadataOutput)
-        metadataOutput.metadataObjectTypes = [.qr, .aztec, .dataMatrix, .ean8, .ean13, .pdf417]
+        metadataOutput.metadataObjectTypes = [.qr, .aztec, .dataMatrix, .ean8, .ean13, .pdf417, .code128]
 
         videoDataOutput.videoSettings = [kCVPixelBufferPixelFormatTypeKey as String: kCVPixelFormatType_32BGRA]
         videoDataOutput.setSampleBufferDelegate(self, queue: videoDataQueue)
@@ -338,7 +338,7 @@ extension ZQRScannerView: AVCaptureMetadataOutputObjectsDelegate {
     public func metadataOutput(_ output: AVCaptureMetadataOutput, didOutput metadataObjects: [AVMetadataObject], from connection: AVCaptureConnection) {
         guard metadataOutputEnable else { return }
         if let metadataObject = metadataObjects.first {
-            guard let readableObject = previewLayer?.transformedMetadataObject(for: metadataObject) as? AVMetadataMachineReadableCodeObject, metadataObject.type == .qr || metadataObject.type == .aztec || metadataObject.type == .dataMatrix || metadataObject.type == .ean8 || metadataObject.type == .ean13 || metadataObject.type == .pdf417 else { return }
+            guard let readableObject = previewLayer?.transformedMetadataObject(for: metadataObject) as? AVMetadataMachineReadableCodeObject, metadataObject.type == .qr || metadataObject.type == .aztec || metadataObject.type == .dataMatrix || metadataObject.type == .ean8 || metadataObject.type == .ean13 || metadataObject.type == .pdf417 || metadataObject.type == .code128 else { return }
             guard let stringValue = readableObject.stringValue else { return }
             metadataOutputEnable = false
             videoDataOutputEnable = true

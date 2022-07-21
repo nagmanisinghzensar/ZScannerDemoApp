@@ -10,7 +10,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   ZQRScannerLib:
-    :commit: 722c50a1347a8ebabfeaca40ba6063c1aa9cfc45
+    :commit: cf6e9a25af39cc05988b5ae4e4ac4926a4fd5b6c
     :git: https://github.com/nagmanisinghzensar/ZenScanner
 
 SPEC CHECKSUMS:

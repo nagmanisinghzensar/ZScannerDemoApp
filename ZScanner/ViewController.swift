@@ -95,7 +95,10 @@ private extension ViewController {
         }
         alertController.addAction(copyAction)
         let searchWebAction = UIAlertAction(title: "Search Web", style: .default) { [weak self] _ in
-            UIApplication.shared.open(URL(string: "https://www.google.com/search?q=\(code)")!, options: [:], completionHandler: nil)
+            if let url = URL(string: "https://www.google.com/search?q=\(code)"){
+                UIApplication.shared.open(url, options: [:], completionHandler: nil)
+            }
+           //UIApplication.shared.open(URL(string: "https://www.google.com/search?q=\(code)")!, options: [:], completionHandler: nil)
             self?.zqrScannerView.rescan()
         }
         alertController.addAction(searchWebAction)
