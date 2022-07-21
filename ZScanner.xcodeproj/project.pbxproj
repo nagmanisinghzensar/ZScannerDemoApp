@@ -7,102 +7,105 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		45DB6E3A28892C9D0025F008 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DB6E3928892C9D0025F008 /* AppDelegate.swift */; };
-		45DB6E3E28892C9D0025F008 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DB6E3D28892C9D0025F008 /* ViewController.swift */; };
-		45DB6E4128892C9D0025F008 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45DB6E3F28892C9D0025F008 /* Main.storyboard */; };
-		45DB6E4328892CA00025F008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45DB6E4228892CA00025F008 /* Assets.xcassets */; };
-		45DB6E4628892CA00025F008 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45DB6E4428892CA00025F008 /* LaunchScreen.storyboard */; };
-		45DB6E5B28892DCC0025F008 /* FlashButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DB6E5A28892DCC0025F008 /* FlashButton.swift */; };
-		F3D641454FF4DA5EB1403DB0 /* Pods_ZScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA4D11E36ED128737FD959FA /* Pods_ZScanner.framework */; };
+		453B96A42889569200F8F5B4 /* FlashButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453B96A32889569200F8F5B4 /* FlashButton.swift */; };
+		45DB6EB6288955830025F008 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DB6EB5288955830025F008 /* AppDelegate.swift */; };
+		45DB6EB8288955830025F008 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DB6EB7288955830025F008 /* SceneDelegate.swift */; };
+		45DB6EBA288955830025F008 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DB6EB9288955830025F008 /* ViewController.swift */; };
+		45DB6EBD288955830025F008 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45DB6EBB288955830025F008 /* Main.storyboard */; };
+		45DB6EBF288955860025F008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45DB6EBE288955860025F008 /* Assets.xcassets */; };
+		45DB6EC2288955860025F008 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45DB6EC0288955860025F008 /* LaunchScreen.storyboard */; };
+		7E2B6F8CA61BCCCF4474F156 /* Pods_ZScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD7251F4CE9936E76BD9BDF /* Pods_ZScanner.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		12733AD344599DBC3E3BFCEF /* Pods-ZScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZScanner.release.xcconfig"; path = "Target Support Files/Pods-ZScanner/Pods-ZScanner.release.xcconfig"; sourceTree = "<group>"; };
-		3172FC65D8560CDDEACE7929 /* Pods-ZScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZScanner.debug.xcconfig"; path = "Target Support Files/Pods-ZScanner/Pods-ZScanner.debug.xcconfig"; sourceTree = "<group>"; };
-		45DB6E3628892C9D0025F008 /* ZScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		45DB6E3928892C9D0025F008 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		45DB6E3D28892C9D0025F008 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		45DB6E4028892C9D0025F008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		45DB6E4228892CA00025F008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		45DB6E4528892CA00025F008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		45DB6E4728892CA00025F008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45DB6E5A28892DCC0025F008 /* FlashButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashButton.swift; sourceTree = "<group>"; };
-		DA4D11E36ED128737FD959FA /* Pods_ZScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C39FDFD15003BB34BE2645 /* Pods-ZScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZScanner.debug.xcconfig"; path = "Target Support Files/Pods-ZScanner/Pods-ZScanner.debug.xcconfig"; sourceTree = "<group>"; };
+		453B96A32889569200F8F5B4 /* FlashButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashButton.swift; sourceTree = "<group>"; };
+		45DB6EB2288955830025F008 /* ZScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45DB6EB5288955830025F008 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45DB6EB7288955830025F008 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		45DB6EB9288955830025F008 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45DB6EBC288955830025F008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45DB6EBE288955860025F008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45DB6EC1288955860025F008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45DB6EC3288955860025F008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AD7251F4CE9936E76BD9BDF /* Pods_ZScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6D19F659E7733C3ABCB2612 /* Pods-ZScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZScanner.release.xcconfig"; path = "Target Support Files/Pods-ZScanner/Pods-ZScanner.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		45DB6E3328892C9D0025F008 /* Frameworks */ = {
+		45DB6EAF288955830025F008 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3D641454FF4DA5EB1403DB0 /* Pods_ZScanner.framework in Frameworks */,
+				7E2B6F8CA61BCCCF4474F156 /* Pods_ZScanner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		45DB6E2D28892C9D0025F008 = {
+		1177F1CCD9AD9A9B96945863 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				45DB6E3828892C9D0025F008 /* ZScanner */,
-				45DB6E3728892C9D0025F008 /* Products */,
-				CE8F53B8D17CDF32F5CBB260 /* Pods */,
-				6DB7E5DA5C5BB2396044E831 /* Frameworks */,
+				28C39FDFD15003BB34BE2645 /* Pods-ZScanner.debug.xcconfig */,
+				A6D19F659E7733C3ABCB2612 /* Pods-ZScanner.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		45DB6EA9288955830025F008 = {
+			isa = PBXGroup;
+			children = (
+				45DB6EB4288955830025F008 /* ZScanner */,
+				45DB6EB3288955830025F008 /* Products */,
+				1177F1CCD9AD9A9B96945863 /* Pods */,
+				96214B8CBB9672A617768D72 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		45DB6E3728892C9D0025F008 /* Products */ = {
+		45DB6EB3288955830025F008 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				45DB6E3628892C9D0025F008 /* ZScanner.app */,
+				45DB6EB2288955830025F008 /* ZScanner.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		45DB6E3828892C9D0025F008 /* ZScanner */ = {
+		45DB6EB4288955830025F008 /* ZScanner */ = {
 			isa = PBXGroup;
 			children = (
-				45DB6E3928892C9D0025F008 /* AppDelegate.swift */,
-				45DB6E3D28892C9D0025F008 /* ViewController.swift */,
-				45DB6E3F28892C9D0025F008 /* Main.storyboard */,
-				45DB6E4228892CA00025F008 /* Assets.xcassets */,
-				45DB6E4428892CA00025F008 /* LaunchScreen.storyboard */,
-				45DB6E4728892CA00025F008 /* Info.plist */,
-				45DB6E5A28892DCC0025F008 /* FlashButton.swift */,
+				45DB6EB5288955830025F008 /* AppDelegate.swift */,
+				45DB6EB7288955830025F008 /* SceneDelegate.swift */,
+				45DB6EB9288955830025F008 /* ViewController.swift */,
+				45DB6EBB288955830025F008 /* Main.storyboard */,
+				45DB6EBE288955860025F008 /* Assets.xcassets */,
+				45DB6EC0288955860025F008 /* LaunchScreen.storyboard */,
+				45DB6EC3288955860025F008 /* Info.plist */,
+				453B96A32889569200F8F5B4 /* FlashButton.swift */,
 			);
 			path = ZScanner;
 			sourceTree = "<group>";
 		};
-		6DB7E5DA5C5BB2396044E831 /* Frameworks */ = {
+		96214B8CBB9672A617768D72 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DA4D11E36ED128737FD959FA /* Pods_ZScanner.framework */,
+				7AD7251F4CE9936E76BD9BDF /* Pods_ZScanner.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CE8F53B8D17CDF32F5CBB260 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3172FC65D8560CDDEACE7929 /* Pods-ZScanner.debug.xcconfig */,
-				12733AD344599DBC3E3BFCEF /* Pods-ZScanner.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		45DB6E3528892C9D0025F008 /* ZScanner */ = {
+		45DB6EB1288955830025F008 /* ZScanner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 45DB6E4A28892CA00025F008 /* Build configuration list for PBXNativeTarget "ZScanner" */;
+			buildConfigurationList = 45DB6EC6288955860025F008 /* Build configuration list for PBXNativeTarget "ZScanner" */;
 			buildPhases = (
-				0CDFDA9544589CAD7DC8D7BA /* [CP] Check Pods Manifest.lock */,
-				45DB6E3228892C9D0025F008 /* Sources */,
-				45DB6E3328892C9D0025F008 /* Frameworks */,
-				45DB6E3428892C9D0025F008 /* Resources */,
-				FC967F8973CC2B4DE3E4B559 /* [CP] Embed Pods Frameworks */,
+				334652F1A2D5507B249A6207 /* [CP] Check Pods Manifest.lock */,
+				45DB6EAE288955830025F008 /* Sources */,
+				45DB6EAF288955830025F008 /* Frameworks */,
+				45DB6EB0288955830025F008 /* Resources */,
+				03D3692F8279DCE36DEC967E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -110,24 +113,24 @@
 			);
 			name = ZScanner;
 			productName = ZScanner;
-			productReference = 45DB6E3628892C9D0025F008 /* ZScanner.app */;
+			productReference = 45DB6EB2288955830025F008 /* ZScanner.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		45DB6E2E28892C9D0025F008 /* Project object */ = {
+		45DB6EAA288955830025F008 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					45DB6E3528892C9D0025F008 = {
+					45DB6EB1288955830025F008 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = 45DB6E3128892C9D0025F008 /* Build configuration list for PBXProject "ZScanner" */;
+			buildConfigurationList = 45DB6EAD288955830025F008 /* Build configuration list for PBXProject "ZScanner" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -135,31 +138,48 @@
 				en,
 				Base,
 			);
-			mainGroup = 45DB6E2D28892C9D0025F008;
-			productRefGroup = 45DB6E3728892C9D0025F008 /* Products */;
+			mainGroup = 45DB6EA9288955830025F008;
+			productRefGroup = 45DB6EB3288955830025F008 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				45DB6E3528892C9D0025F008 /* ZScanner */,
+				45DB6EB1288955830025F008 /* ZScanner */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		45DB6E3428892C9D0025F008 /* Resources */ = {
+		45DB6EB0288955830025F008 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45DB6E4628892CA00025F008 /* LaunchScreen.storyboard in Resources */,
-				45DB6E4328892CA00025F008 /* Assets.xcassets in Resources */,
-				45DB6E4128892C9D0025F008 /* Main.storyboard in Resources */,
+				45DB6EC2288955860025F008 /* LaunchScreen.storyboard in Resources */,
+				45DB6EBF288955860025F008 /* Assets.xcassets in Resources */,
+				45DB6EBD288955830025F008 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0CDFDA9544589CAD7DC8D7BA /* [CP] Check Pods Manifest.lock */ = {
+		03D3692F8279DCE36DEC967E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZScanner/Pods-ZScanner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZScanner/Pods-ZScanner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZScanner/Pods-ZScanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		334652F1A2D5507B249A6207 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -181,51 +201,35 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FC967F8973CC2B4DE3E4B559 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZScanner/Pods-ZScanner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZScanner/Pods-ZScanner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZScanner/Pods-ZScanner-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		45DB6E3228892C9D0025F008 /* Sources */ = {
+		45DB6EAE288955830025F008 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45DB6E3E28892C9D0025F008 /* ViewController.swift in Sources */,
-				45DB6E3A28892C9D0025F008 /* AppDelegate.swift in Sources */,
-				45DB6E5B28892DCC0025F008 /* FlashButton.swift in Sources */,
+				45DB6EBA288955830025F008 /* ViewController.swift in Sources */,
+				45DB6EB6288955830025F008 /* AppDelegate.swift in Sources */,
+				453B96A42889569200F8F5B4 /* FlashButton.swift in Sources */,
+				45DB6EB8288955830025F008 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		45DB6E3F28892C9D0025F008 /* Main.storyboard */ = {
+		45DB6EBB288955830025F008 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				45DB6E4028892C9D0025F008 /* Base */,
+				45DB6EBC288955830025F008 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		45DB6E4428892CA00025F008 /* LaunchScreen.storyboard */ = {
+		45DB6EC0288955860025F008 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				45DB6E4528892CA00025F008 /* Base */,
+				45DB6EC1288955860025F008 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -233,7 +237,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		45DB6E4828892CA00025F008 /* Debug */ = {
+		45DB6EC4288955860025F008 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -294,7 +298,7 @@
 			};
 			name = Debug;
 		};
-		45DB6E4928892CA00025F008 /* Release */ = {
+		45DB6EC5288955860025F008 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -349,9 +353,9 @@
 			};
 			name = Release;
 		};
-		45DB6E4B28892CA00025F008 /* Debug */ = {
+		45DB6EC7288955860025F008 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3172FC65D8560CDDEACE7929 /* Pods-ZScanner.debug.xcconfig */;
+			baseConfigurationReference = 28C39FDFD15003BB34BE2645 /* Pods-ZScanner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -369,9 +373,9 @@
 			};
 			name = Debug;
 		};
-		45DB6E4C28892CA00025F008 /* Release */ = {
+		45DB6EC8288955860025F008 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12733AD344599DBC3E3BFCEF /* Pods-ZScanner.release.xcconfig */;
+			baseConfigurationReference = A6D19F659E7733C3ABCB2612 /* Pods-ZScanner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -392,25 +396,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		45DB6E3128892C9D0025F008 /* Build configuration list for PBXProject "ZScanner" */ = {
+		45DB6EAD288955830025F008 /* Build configuration list for PBXProject "ZScanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				45DB6E4828892CA00025F008 /* Debug */,
-				45DB6E4928892CA00025F008 /* Release */,
+				45DB6EC4288955860025F008 /* Debug */,
+				45DB6EC5288955860025F008 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		45DB6E4A28892CA00025F008 /* Build configuration list for PBXNativeTarget "ZScanner" */ = {
+		45DB6EC6288955860025F008 /* Build configuration list for PBXNativeTarget "ZScanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				45DB6E4B28892CA00025F008 /* Debug */,
-				45DB6E4C28892CA00025F008 /* Release */,
+				45DB6EC7288955860025F008 /* Debug */,
+				45DB6EC8288955860025F008 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 45DB6E2E28892C9D0025F008 /* Project object */;
+	rootObject = 45DB6EAA288955830025F008 /* Project object */;
 }

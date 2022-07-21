@@ -27,7 +27,6 @@ final class FlashButton: UIButton {
         }
     }
 }
-
 // MARK: - Private
 private extension FlashButton {
     func settings() {

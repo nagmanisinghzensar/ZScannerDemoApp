@@ -10,10 +10,10 @@ import ZQRScannerLib
 import AVFoundation
 
 class ViewController: UIViewController {
-
-    @IBOutlet var zqrScannerView: ZQRScannerView!
-    @IBOutlet var flashBtn: FlashButton!
     
+    @IBOutlet var zqrScannerView : ZQRScannerView!
+    @IBOutlet var flashBtn: FlashButton!
+
     // MARK: - LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -55,8 +55,7 @@ class ViewController: UIViewController {
         zqrScannerView.stopRunning()
     }
 
-    // MARK: - Actions
-    @IBAction func flashBtnClicked(_ sender: UIButton){
+    @IBAction func flashCLicked(_ sender: UIButton){
         zqrScannerView.setTorchActive(isOn: !sender.isSelected)
     }
 }

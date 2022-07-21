@@ -17,41 +17,45 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pQB-0C-oJe" customClass="ZQRScannerView" customModule="ZQRScannerLib">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iE1-YQ-cUW" customClass="ZQRScannerView" customModule="ZQRScannerLib">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Pr-F5-Yi2" customClass="FlashButton" customModule="ZScanner" customModuleProvider="target">
+                                        <rect key="frame" x="167" y="776" width="80" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80" id="6ZE-VS-GIr"/>
+                                            <constraint firstAttribute="height" constant="80" id="GNy-B8-Nal"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="flashCLickedWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="58X-GA-fyV"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TV5-9y-2RJ" customClass="FlashButton" customModule="ZScanner" customModuleProvider="target">
-                                <rect key="frame" x="167" y="742" width="80" height="80"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="80" id="Y3T-Rk-uUj"/>
-                                    <constraint firstAttribute="height" constant="80" id="dAK-p4-g0o"/>
+                                    <constraint firstAttribute="bottom" secondItem="5Pr-F5-Yi2" secondAttribute="bottom" constant="40" id="9rx-RR-GBT"/>
+                                    <constraint firstItem="5Pr-F5-Yi2" firstAttribute="centerX" secondItem="iE1-YQ-cUW" secondAttribute="centerX" id="mO7-Yl-gqz"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="flashBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0WQ-3x-QaB"/>
-                                </connections>
-                            </button>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="TV5-9y-2RJ" secondAttribute="bottom" constant="40" id="7gF-yw-G1h"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pQB-0C-oJe" secondAttribute="trailing" id="Msd-Rp-QvO"/>
-                            <constraint firstItem="pQB-0C-oJe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ZR2-0y-xUc"/>
-                            <constraint firstItem="pQB-0C-oJe" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="de9-z6-UaF"/>
-                            <constraint firstItem="TV5-9y-2RJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="exE-mo-nSb"/>
-                            <constraint firstAttribute="bottom" secondItem="pQB-0C-oJe" secondAttribute="bottom" id="fP2-iN-5yN"/>
+                            <constraint firstItem="iE1-YQ-cUW" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="P6w-Ya-jVV"/>
+                            <constraint firstItem="iE1-YQ-cUW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Q1w-5h-1Qm"/>
+                            <constraint firstItem="iE1-YQ-cUW" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="uWC-3o-tuY"/>
+                            <constraint firstAttribute="bottom" secondItem="iE1-YQ-cUW" secondAttribute="bottom" id="zQ1-5e-qbb"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="flashBtn" destination="TV5-9y-2RJ" id="2d1-FI-ete"/>
-                        <outlet property="zqrScannerView" destination="pQB-0C-oJe" id="Ya3-LF-AxC"/>
+                        <outlet property="flashBtn" destination="5Pr-F5-Yi2" id="AKn-Sk-Nur"/>
+                        <outlet property="zqrScannerView" destination="iE1-YQ-cUW" id="vaM-E0-JwV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="140.57971014492756" y="64.955357142857139"/>
+            <point key="canvasLocation" x="-23.188405797101453" y="64.955357142857139"/>
         </scene>
     </scenes>
     <resources>
